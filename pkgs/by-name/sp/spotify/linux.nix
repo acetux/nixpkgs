@@ -126,7 +126,7 @@ stdenv.mkDerivation {
   src = fetchurl {
     name = "spotify-${version}-${rev}.snap";
     url = "https://api.snapcraft.io/api/v1/snaps/download/pOBIoZ2LrCB3rDohMxoYGnbN14EHOgD7_${rev}.snap";
-    hash = "sha512-FtLIJjv61qfE2SlVmZ5e/DnBv2S0fVbLtGJaS9DbJ67A8cAG4WARMPnMSP/ngjht1M8lflU2wFY3W2whO/HOrQ==";
+    hash = "sha512-eEGkHcw08uB2988Vkuji2RiFKQveDR0kUJqcQxX8uh7125MlUxiVKLhJjcgWdMOwJARIJNBMCfXf/pTCskwoQw==";
   };
 
   nativeBuildInputs = [
